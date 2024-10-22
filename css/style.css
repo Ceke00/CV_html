@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/*General*/
+:root {
+	--light: antiquewhite;
+	--orange: #f9d59f;
+	--lightblue: #93d7e4;
+	--blue: #006d80;
+	--darkestblue: #05333c;
+	--dark: #222;
+	--darktrans: #1e1e1ebd;
+}
+body {
+	line-height: 1.6;
+	font-family: "Open Sans", sans-serif;
+	color: var(--light);
+}
+.container {
+	max-width: 1200px;
+}
+
+/*Typography*/
+p {
+	margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Josefin Sans", "Open Sans", sans-serif;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+#h1-small {
+	display: block;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.6rem;
+	margin-top: 1rem;
+}
+h3 {
+	font-size: 1.2rem;
+	margin-top: 0.8rem;
+}
+h4 {
+	font-size: 1.2rem;
+}
+ul {
+	list-style-type: disc;
+	margin: 0rem 1rem 1rem;
+}
+a {
+	color: var(--lightblue);
+	text-underline-offset: 0.3rem;
+}
+a:hover {
+	color: var(--orange);
+}
+
+/*Section areas*/
+
+header {
+	background-color: aquamarine;
+}
+#h1-contact {
+	background-color: var(--darkestblue);
+	padding: 1rem;
+}
+#intro {
+	background-color: var(--orange);
+	color: var(--dark);
+	padding: 1rem;
+}
+#img {
+	background-color: #fff;
+}
+#skills {
+	background-color: var(--darkestblue);
+	padding: 1rem;
+}
+.contact-info {
+	background-color: blue;
+	padding: 1rem;
+}
+#experiences {
+	background-color: var(--dark);
+	padding: 1rem;
+}
+footer {
+	background-color: var(--darkestblue);
+	padding: 1rem;
+}
+img {
+	width: 100%;
+}
